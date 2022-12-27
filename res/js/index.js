@@ -1,5 +1,5 @@
 //const url = "https://my.api.mockaroo.com"; // change accordingly
-const url = "/res";
+const url = "/EDI/res";
 const file = "data.json";
 const apiKey = "ef3aaf90";
 
