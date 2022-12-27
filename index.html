@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Group Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/res/css/index.css">
+        <script src="/res/chart/js/chart.js"></script>
+        <link rel="stylesheet" href="/res/bootstrap/css/bootstrap.min.css">
+        <script src="/res/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <h2>User Data</h2>
+        <h3>Members:</h3>
+        <div class="container-fluid text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <p><abbr title="225820">Miłosz Głąbiński</abbr></p>
+                </div>
+                <div class="col">
+                    <p><abbr title="227289">Piotr Koterwa</abbr></p>
+                </div>
+                <div class="col">
+                    <p><abbr title="225949">Filip Meus</abbr></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <h4>Age range chart</h4>
+            <div class="row align-items-start text-center">
+                <div class="col text-center">
+                    <canvas id="age-chart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <h4>Gender chart</h4>
+            <div class="row align-items-start text-center">
+                <div class="col text-center">
+                    <canvas id="gender-chart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <table class="table">
+                <p id="loading-text">The table is being loaded, please wait...</p>
+            </table>
+        </div>
+        <script src="/res/js/index.js"></script>
+    </body>
+</html>
